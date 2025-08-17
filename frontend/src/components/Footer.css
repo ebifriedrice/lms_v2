@@ -1,0 +1,23 @@
+.main-footer {
+  background: var(--secondary-color);
+  color: var(--white-color);
+  padding: 2rem 0;
+  margin-top: 2rem;
+}
+
+.main-footer .footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-footer .social-links a {
+  color: var(--white-color);
+  margin-left: 1rem;
+  transition: opacity 0.3s ease;
+}
+
+.main-footer .social-links a:hover {
+  opacity: 0.8;
+  text-decoration: none;
+}
